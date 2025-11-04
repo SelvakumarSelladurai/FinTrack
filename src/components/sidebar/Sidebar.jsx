@@ -10,12 +10,12 @@ export default function Sidebar() {
     const [ active, setActive ] = useState("Overview");
 
     const menuItems = [
-    { title: "Overview", icon: <MdDashboard /> },
+    { title: "Dashboard", icon: <MdDashboard /> },
+    { title: "Wallets", icon: <FaWallet /> },
     { title: "Transactions", icon: <FaExchangeAlt /> },
     { title: "Budgets", icon: <FaMoneyBillWave /> },
     { title: "Reports / Charts", icon: <FaRegChartBar /> },
     { title: "Accounts", icon: <MdOutlineAccountBalance /> },
-    { title: "Wallets", icon: <FaWallet /> },
   ];
 
   const financeTools = [
